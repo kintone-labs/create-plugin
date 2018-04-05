@@ -9,8 +9,8 @@ describe('lang', () => {
       assert.equal(getDefaultLang('ja_JP.UTF-8'), 'ja');
       assert.equal(getDefaultLang('C'), 'en');
     });
-    it('should return "en" as the default value if the passed value is null or undefined', () => {
-      assert.equal(getDefaultLang(null), 'en');
+    it('should return "en" as the default value if the passed value is undefined', () => {
+      assert.equal(getDefaultLang(), 'en');
       assert.equal(getDefaultLang(undefined), 'en');
     });
   });
