@@ -18,7 +18,7 @@ const baseManifest = {
     html: "html/config.html",
     js: [jQueryURL, "js/config.js"],
     css: ["css/51-modern-default.css", "css/config.css"],
-    required_params: []
+    required_params: ["message"]
   }
 };
 
