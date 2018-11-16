@@ -21,7 +21,7 @@ const inquirer = require("inquirer");
 function verifyOutputDirectory(outputDirectory: string, lang: Lang): void {
   if (fs.existsSync(outputDirectory)) {
     console.error(
-      `${outputDirectory} ${getMessage(lang, "Error_alreadyExists")}`
+      `${outputDirectory} ${getMessage(lang, "error.already.exists")}`
     );
     process.exit(1);
   }
@@ -36,7 +36,7 @@ function run(outputDir: string, lang: Lang) {
   verifyOutputDirectory(outputDir, lang);
   printLog(`
 
-  ${m("introduction")}
+  ${m("introduction.message")}
 
   `);
 
@@ -54,31 +54,31 @@ Success! Created ${manifest.name.en} at ${outputDir}
 
 ${chalk.cyan("npm start")}
 
-  ${m("npmStart")}
-  ${enablePluginUploader ? m("npmStartWithPluginUploader") : ""}
+  ${m("npm.start")}
+  ${enablePluginUploader ? m("npm.start.with.uploader") : ""}
 
 ${chalk.cyan("npm run build")}
 
-  ${m("npmBuild")}
+  ${m("npm.build")}
 
 ${chalk.cyan("npm run lint")}
 
-  ${m("npmLint")}
+  ${m("npm.lint")}
 
-${m("nextAction")}
-${enablePluginUploader ? m("howToUsePluginUploader") : ""}
+${m("next.action")}
+${enablePluginUploader ? m("how.to.use.uploader") : ""}
 
   cd ${outputDir}
   npm start
 
-${m("lastMessage")}
-${m("developerSite")}
+${m("last.message")}
+${m("developer.site")}
 
       `);
     })
     .catch((error: Error) => {
       rimraf(outputDir, () => {
-        printError(m("Error_cannotCreatePlugin"), error.message);
+        printError(m("error.failed.create.plugin"), error.message);
       });
     });
 }

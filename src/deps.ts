@@ -10,7 +10,7 @@ import { getMessage } from "./messages";
  * @param outputDirectory
  */
 export function installDependencies(outputDirectory: string, lang: Lang): void {
-  printLog(getMessage(lang, "installDependencies"));
+  printLog(getMessage(lang, "install.dependencies"));
 
   const spawnOption = {
     cwd: outputDirectory,
