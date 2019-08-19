@@ -21,12 +21,12 @@
     "meow": "^5.0.0",
     "node-rsa": "^1.0.5",
     "os-locale": "^3.1.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^3.0.0"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/inquirer": "^6.5.0",
-    "@types/lodash": "^4.14.136",
+    "@types/lodash": "^4.14.137",
     "@types/mocha": "^5.2.7",
     "@types/node": "^9.6.50",
     "@types/node-rsa": "^1.0.0",
