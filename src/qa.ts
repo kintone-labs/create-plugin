@@ -2,16 +2,7 @@
 
 import { Answers, Question } from "inquirer";
 import { Lang } from "./lang";
-import { Manifest } from "./manifest";
 import { getBoundMessage } from "./messages";
-
-export type UserAnswers = Manifest & {
-  ja: boolean;
-  cn: boolean;
-  mobile?: boolean;
-  config?: boolean;
-  pluginUploader: boolean;
-};
 
 const NAME_MAX_LENGTH = 64;
 const DESCRIPTION_MAX_LENGTH = 200;
@@ -115,7 +106,7 @@ export function buildQuestions(outputDir: string, lang: Lang): Question[] {
     {
       type: "confirm",
       name: "mobile",
-      default: false,
+      default: true,
       message: m("Q_MobileSupport")
     },
     {

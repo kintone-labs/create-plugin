@@ -1,6 +1,112 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.0.3](https://github.com/kintone/create-plugin/compare/v2.0.2...v2.0.3) (2019-08-27)
+
+
+### Bug Fixes
+
+* desktop.css ([aac5d1b](https://github.com/kintone/create-plugin/commit/aac5d1b))
+* **deps:** update dependency inquirer to ^6.5.1 ([#346](https://github.com/kintone/create-plugin/issues/346)) ([5479d0b](https://github.com/kintone/create-plugin/commit/5479d0b))
+* **deps:** update dependency inquirer to v7 ([#365](https://github.com/kintone/create-plugin/issues/365)) ([07a4051](https://github.com/kintone/create-plugin/commit/07a4051))
+* **deps:** update dependency os-locale to v4 ([#335](https://github.com/kintone/create-plugin/issues/335)) ([c887af0](https://github.com/kintone/create-plugin/commit/c887af0))
+* **deps:** update dependency rimraf to v3 ([934b9f9](https://github.com/kintone/create-plugin/commit/934b9f9))
+
+## [2.0.2](https://github.com/kintone/create-plugin/compare/v2.0.1...v2.0.2) (2019-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to ^6.4.1 ([#292](https://github.com/kintone/create-plugin/issues/292)) ([0aba3fc](https://github.com/kintone/create-plugin/commit/0aba3fc))
+* **deps:** update dependency lodash to ^4.17.14 ([3db0b2d](https://github.com/kintone/create-plugin/commit/3db0b2d))
+* **deps:** update dependency lodash to ^4.17.15 ([589ff3d](https://github.com/kintone/create-plugin/commit/589ff3d))
+* **deps:** update dependency lodash to v4.17.13 [security] ([758de48](https://github.com/kintone/create-plugin/commit/758de48))
+
+
+
+## [2.0.1](https://github.com/kintone/create-plugin/compare/v2.0.0...v2.0.1) (2019-06-25)
+
+
+
+# [2.0.0](https://github.com/kintone/create-plugin/compare/v2.0.0-alpha.0...v2.0.0) (2019-06-11)
+
+
+### Continuous Integration
+
+* drop Node v6 and add Node v12 as supporting versions ([#325](https://github.com/kintone/create-plugin/issues/325)) ([2b9cdb0](https://github.com/kintone/create-plugin/commit/2b9cdb0))
+
+
+### BREAKING CHANGES
+
+* drop Node v6 support
+
+
+
+# [2.0.0-alpha.0](https://github.com/kintone/create-plugin/compare/v1.5.0-alpha.0...v2.0.0-alpha.0) (2019-05-22)
+
+
+### Features
+
+* add a mobile css into the minimum templates ([#319](https://github.com/kintone/create-plugin/issues/319)) ([5660e92](https://github.com/kintone/create-plugin/commit/5660e92))
+* add cancel button in setting page ([#318](https://github.com/kintone/create-plugin/issues/318)) ([9c60d18](https://github.com/kintone/create-plugin/commit/9c60d18))
+* generate mobile template by default ([#320](https://github.com/kintone/create-plugin/issues/320)) ([66ab7eb](https://github.com/kintone/create-plugin/commit/66ab7eb))
+* use @cybozu/eslint-config instead of eslint-config-kintone ([#314](https://github.com/kintone/create-plugin/issues/314)) ([507b357](https://github.com/kintone/create-plugin/commit/507b357))
+
+
+### BREAKING CHANGES
+
+* this generates a mobile template by default
+
+
+
+# [1.5.0-alpha.0](https://github.com/kintone/create-plugin/compare/v1.4.4...v1.5.0-alpha.0) (2019-05-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency glob to ^7.1.4 ([da41f44](https://github.com/kintone/create-plugin/commit/da41f44))
+
+
+### Features
+
+* Changed alert phrase. ([#301](https://github.com/kintone/create-plugin/issues/301)) ([31263b0](https://github.com/kintone/create-plugin/commit/31263b0))
+* update plugin-packer version to 1.1.0-alpha.0 ([#311](https://github.com/kintone/create-plugin/issues/311)) ([2e151bf](https://github.com/kintone/create-plugin/commit/2e151bf))
+
+
+
+## [1.4.4](https://github.com/kintone/create-plugin/compare/v1.4.3...v1.4.4) (2019-04-23)
+
+
+
+## [1.4.3](https://github.com/kintone/create-plugin/compare/v1.4.2...v1.4.3) (2019-03-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-rsa to ^1.0.5 ([ea24ce4](https://github.com/kintone/create-plugin/commit/ea24ce4))
+
+
+
+## [1.4.2](https://github.com/kintone/create-plugin/compare/v1.4.1...v1.4.2) (2019-02-26)
+
+
+
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/kintone/create-plugin/compare/v1.3.5...v1.4.0) (2018-12-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to ^6.2.1 ([ffb28f4](https://github.com/kintone/create-plugin/commit/ffb28f4))
+* **deps:** update dependency node-rsa to ^1.0.2 ([6e9ffc5](https://github.com/kintone/create-plugin/commit/6e9ffc5))
+
+
+### Features
+
+* **template:** Updated 51-modern-default.css ([#236](https://github.com/kintone/create-plugin/issues/236)) ([8d387dd](https://github.com/kintone/create-plugin/commit/8d387dd))
+
+
 
 <a name="1.3.5"></a>
 ## [1.3.5](https://github.com/kintone/create-plugin/compare/v1.3.4...v1.3.5) (2018-11-21)

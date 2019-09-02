@@ -1,7 +1,6 @@
 "use strict";
 
 import { Answers } from "inquirer";
-import { UserAnswers } from "./qa";
 
 const jQueryURL = "https://js.cybozu.com/jquery/3.3.1/jquery.min.js";
 
@@ -48,6 +47,7 @@ export interface Manifest {
   };
   mobile?: {
     js?: string[];
+    css?: string[];
   };
   config?: {
     html?: string;
@@ -89,14 +89,15 @@ function answer2Manifest(answers: Answers): Manifest {
  * Build the manifest setting
  * @param answers
  */
-export function buildManifest(answers: UserAnswers): Manifest {
+export function buildManifest(answers: Answers): Manifest {
   let manifest = { ...baseManifest, ...answer2Manifest(answers) };
   if (answers.mobile) {
     manifest = {
       ...manifest,
       ...{
         mobile: {
-          js: [jQueryURL, "js/mobile.js"]
+          js: [jQueryURL, "js/mobile.js"],
+          css: ["css/mobile.css"]
         }
       }
     };
