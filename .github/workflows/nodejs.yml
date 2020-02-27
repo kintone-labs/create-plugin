@@ -1,6 +1,6 @@
 name: Node CI on windows
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   test:
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.16, 10, 12]
+        node-version: [10, 12]
 
     steps:
     - uses: actions/checkout@v1
@@ -22,4 +22,5 @@ jobs:
     - run: node --version 
     - run: npm --version
     - run: npm ci
+    - run: npm run lint
     - run: npm run test:all

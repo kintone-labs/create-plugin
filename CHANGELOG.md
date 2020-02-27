@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/kintone/create-plugin/compare/v3.0.1...v3.0.2) (2020-02-25)
+
+### [3.0.1](https://github.com/kintone/create-plugin/compare/v3.0.0...v3.0.1) (2020-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency meow to ^6.0.1 ([4ce5653](https://github.com/kintone/create-plugin/commit/4ce5653cd7c0ae31e9d72675141a7d39922d2c90))
+* **deps:** update dependency rimraf to ^3.0.1 ([86b2c9f](https://github.com/kintone/create-plugin/commit/86b2c9fe147617ea1bcc09924858be98926aa1b2))
+* **deps:** update dependency rimraf to ^3.0.2 ([996960e](https://github.com/kintone/create-plugin/commit/996960e84e043905d723eebb74d74355adf77b21))
+
+## [3.0.0](https://github.com/kintone/create-plugin/compare/v2.0.7...v3.0.0) (2020-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop node 8 support
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to ^7.0.2 ([c0d987c](https://github.com/kintone/create-plugin/commit/c0d987c6f3a4ccaf764deef95838de3f61dce2a9))
+* **deps:** update dependency inquirer to ^7.0.3 ([d1a0cf4](https://github.com/kintone/create-plugin/commit/d1a0cf415cf5ca0b5505a7d81371492c01268f2a))
+* **deps:** update dependency inquirer to ^7.0.4 ([cf7a8f7](https://github.com/kintone/create-plugin/commit/cf7a8f7d3d4fca24d93e50ff52c709d3299c831a))
+
+
+* drop node 8 support ([#429](https://github.com/kintone/create-plugin/issues/429)) ([df4a616](https://github.com/kintone/create-plugin/commit/df4a6162c6c9616f075b1b189e55db6d0fee43fb))
+
+### [2.0.7](https://github.com/kintone/create-plugin/compare/v2.0.6...v2.0.7) (2019-12-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to ^7.0.1 ([a2cc036](https://github.com/kintone/create-plugin/commit/a2cc036e6c8b49351b6eda6fb7050fdc61a35448))
+* **deps:** update dependency meow to v6 ([#414](https://github.com/kintone/create-plugin/issues/414)) ([230b2ad](https://github.com/kintone/create-plugin/commit/230b2adb6422443f16e704a97ca4d79f243b86ed))
+* **deps:** update dependency node-rsa to ^1.0.7 ([fa86146](https://github.com/kintone/create-plugin/commit/fa86146a1361803f262ee873c441f91941f985e4))
+
 ### [2.0.6](https://github.com/kintone/create-plugin/compare/v2.0.5...v2.0.6) (2019-11-16)
 
 
