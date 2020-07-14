@@ -1,5 +1,11 @@
 # create-kintone-plugin
 
+## :warning::warning: This project has migrated to [kintone/js-sdk](https://github.com/kintone/js-sdk/tree/master/packages/create-plugin). :warning::warning:
+
+**We keep maintaining `@kintone/create-plugin` on [kintone/js-sdk](https://github.com/kintone/js-sdk/tree/master/packages/create-plugin). :rocket::rocket:**
+
+<!--
+
 [![npm version](https://badge.fury.io/js/%40kintone%2Fcreate-plugin.svg)](https://badge.fury.io/js/%40kintone%2Fcreate-plugin)
 [![CircleCI](https://circleci.com/gh/kintone/create-plugin.svg?style=shield)](https://circleci.com/gh/kintone/create-plugin)
 [![Build Status](https://travis-ci.org/kintone/create-plugin.svg?branch=master)](https://travis-ci.org/kintone/create-plugin)
@@ -137,3 +143,5 @@ kintoneプラグイン開発をはじめましょう！
 ## LICENSE
 
 MIT License
+
+-->
